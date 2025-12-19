@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/christmas/35_-_christmas.jpg') 
+    no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+h1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 10px #fff, 0 0 20px #39FF14, 0 0 40px #685c16;
+    z-index: 10;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    font-size: xx-large;
+    color: white;
+}
+
+.star {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: radial-gradient(circle, white, transparent);
+    clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2% 35%,
+        39% 35%,
+    )
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
+    animation: star-fall 4s linear infinite, twinkle 2s infinite;
+}
+
+.star::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 0;
+    height: 0;
+    border-left:  2px solid transparent;
+    border-right: 2px solid transparent;
+    border-top: 4px solid white;
+    transform: rotate(-35deg);
+}
+
+@keyframes twinkle {
+    0%, 100% {
+        opacity: 0.8;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes star-fall {
+    0% {
+        transform: translateY(-100px) scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100vh) scale(0.5);
+        opacity: 0;
+    }
+}
+
+#miReproductor {
+    visibility: ;
+}
+
+.boton-png {
+    width: 70px;
+    height: 70px;
+    background: url('https://blogger.googleusercontent.com/img/a/AVvXsEjkSaeKiMUihBLHxr4fCGzezSd75yQQM4uiaoHxix-bLbVsmQcHwPyZX8UF0BjEHRmabGNR2q84Ef5r9kYxU36zFGzwQMG8lefPUzC5VXZhHovQ7jqG-Q-IGY-6H4Sm-Qf_q1O-VmIUqTYqd_hPhxMyEHAQ_hXrAvZrnR43OIep5GGJGnuwARNlqDQnpsPV') no-repeat center center fixed;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 780px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url('https://imgs.search.brave.com/kBMxraHEvZX8m-f0BvGvnEGvw29PFnNJ89mTTjKk1L4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvY2hy/aXN0bWFzLXBob25l/LWJhY2tncm91bmQt/cDZrOGhqZGp5djFs/Y2w2Yy5qcGc') 
+        no-repeat center center fixed;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    h1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+        text-shadow: 0 0 10px #fff, 0 0 20px #e23636, 0 0 30px #0044ff;
+        z-index: 10;
+    }
+
+    p {
+        display: flex;
+        justify-content: center;
+        padding: 2%;
+        font-size: x-large;
+        color: white;
+    }
+}
