@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/christmas/35_-_christmas.jpg') 
+    background: url('https://blogger.googleusercontent.com/img/a/AVvXsEi1YwsUzLa7-CJTbq9yyGPMyw4TsySsqyczNI5SGsXMVzoF61cSIzIRbyEdtBwbmIWDmHNrOj022tD_Fr4xkwW3dHJbeL3eZeYQtXhRA4iMJe701Wc06x_qOR9T5X8MyX0RFzfOjxAq3w_aO4YP9dija7e6JVKPm98XXLG1o4UB1rkei-5CrxJBfI6B82ir=w1684-h1069-p-k-no-nu') 
     no-repeat center center fixed;
     background-size: cover;
     overflow: hidden;
@@ -17,7 +17,7 @@ h1 {
     justify-content: center;
     font-family: 'Comic Sans MS', cursive, sans-serif;
     font-size: 6rem;
-    color: white;
+    color: black;
     text-align: center;
     text-shadow: 0 0 10px #fff, 0 0 20px #39FF14, 0 0 40px #685c16;
     z-index: 10;
@@ -28,66 +28,9 @@ p {
     justify-content: center;
     padding: 2%;
     font-size: xx-large;
-    color: white;
+    color: black;
 }
 
-.star {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background: radial-gradient(circle, white, transparent);
-    clip-path: polygon(
-        50% 0%,
-        61% 35%,
-        98% 35%,
-        68% 57%,
-        79% 91%,
-        50% 70%,
-        21% 91%,
-        32% 57%,
-        2% 35%,
-        39% 35%,
-    )
-    box-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
-    animation: star-fall 4s linear infinite, twinkle 2s infinite;
-}
-
-.star::after {
-    content: '';
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    width: 0;
-    height: 0;
-    border-left:  2px solid transparent;
-    border-right: 2px solid transparent;
-    border-top: 4px solid white;
-    transform: rotate(-35deg);
-}
-
-@keyframes twinkle {
-    0%, 100% {
-        opacity: 0.8;
-    }
-    50% {
-        opacity: 1;
-    }
-}
-
-@keyframes star-fall {
-    0% {
-        transform: translateY(-100px) scale(1);
-        opacity: 1;
-    }
-    100% {
-        transform: translateY(100vh) scale(0.5);
-        opacity: 0;
-    }
-}
-
-#miReproductor {
-    visibility: ;
-}
 
 .boton-png {
     width: 70px;
@@ -107,7 +50,7 @@ p {
         display: flex;
         justify-content: center;
         align-items: center;
-        background: url('https://imgs.search.brave.com/kBMxraHEvZX8m-f0BvGvnEGvw29PFnNJ89mTTjKk1L4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvY2hy/aXN0bWFzLXBob25l/LWJhY2tncm91bmQt/cDZrOGhqZGp5djFs/Y2w2Yy5qcGc') 
+        background: url('https://blogger.googleusercontent.com/img/a/AVvXsEgp8KevRxPmc8n64gj1zWWL7sNRAdcMGelrwTNGfDx3PlA1Aa7TfauP-F0LLd3iyVUPTCpl_o41q_IMFrY2dBv8NLHto8U36aRGwHfVN_j28bi1ZuHrmnsjN9LxdEaOh2bYD8do4-PlhTawaCQY3UVKHzS9xVC0AnRJFnqewH1dr2zFYDn9dMHblH8SWV8s') 
         no-repeat center center fixed;
         background-size: cover;
         overflow: hidden;
@@ -119,7 +62,7 @@ p {
         justify-content: center;
         font-family: 'Comic Sans MS', cursive, sans-serif;
         font-size: 2rem;
-        color: white;
+        color: black;
         text-align: center;
         text-shadow: 0 0 10px #fff, 0 0 20px #e23636, 0 0 30px #0044ff;
         z-index: 10;
@@ -128,8 +71,8 @@ p {
     p {
         display: flex;
         justify-content: center;
-        padding: 2%;
+        padding: 8%;
         font-size: x-large;
-        color: white;
+        color: black;
     }
 }
