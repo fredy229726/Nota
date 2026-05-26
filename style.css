@@ -28,7 +28,7 @@ p {
     justify-content: center;
     padding: 2%;
     font-size: xx-large;
-    color: black;
+    color: blue;
 }
 
 
@@ -73,6 +73,6 @@ p {
         justify-content: center;
         padding: 8%;
         font-size: large;
-        color: black;
+        color: blue;
     }
 }
