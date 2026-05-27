@@ -50,7 +50,8 @@ p {
         padding: 0;
         height: 100vh;
         display: flex;
-        justify-content: center;
+        justify-content: start-flex;
+        padding-top: 15px;
         align-items: center;
         background: url('https://blogger.googleusercontent.com/img/a/AVvXsEgp8KevRxPmc8n64gj1zWWL7sNRAdcMGelrwTNGfDx3PlA1Aa7TfauP-F0LLd3iyVUPTCpl_o41q_IMFrY2dBv8NLHto8U36aRGwHfVN_j28bi1ZuHrmnsjN9LxdEaOh2bYD8do4-PlhTawaCQY3UVKHzS9xVC0AnRJFnqewH1dr2zFYDn9dMHblH8SWV8s') 
         no-repeat center center fixed;
