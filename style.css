@@ -25,8 +25,9 @@ h1 {
 
 p {
     display: flex;
-    justify-content: center;
-    padding: 2%;
+    justify-content: flex-start;
+    padding-top: 20px;
+    padding: 4%;
     font-size: xx-large;
     color: black;
 }
@@ -70,7 +71,8 @@ p {
 
     p {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
+        padding-top: 20px;
         padding: 8%;
         font-size: large;
         color: black;
