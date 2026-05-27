@@ -3,7 +3,8 @@ body {
     padding: 0;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: start-flex;
+    padding-top: 15px;
     align-items: center;
     background: url('https://blogger.googleusercontent.com/img/a/AVvXsEi1YwsUzLa7-CJTbq9yyGPMyw4TsySsqyczNI5SGsXMVzoF61cSIzIRbyEdtBwbmIWDmHNrOj022tD_Fr4xkwW3dHJbeL3eZeYQtXhRA4iMJe701Wc06x_qOR9T5X8MyX0RFzfOjxAq3w_aO4YP9dija7e6JVKPm98XXLG1o4UB1rkei-5CrxJBfI6B82ir=w1684-h1069-p-k-no-nu') 
     no-repeat center center fixed;
