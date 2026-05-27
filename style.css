@@ -28,7 +28,7 @@ p {
     justify-content: flex-start;
     padding-top: 20px;
     padding: 4%;
-    font-size: xx-large;
+    font-size: 18px;
     color: black;
 }
 
@@ -74,7 +74,7 @@ p {
         justify-content: flex-start;
         padding-top: 20px;
         padding: 8%;
-        font-size: large;
+        font-size: 11px;
         color: black;
     }
 }
