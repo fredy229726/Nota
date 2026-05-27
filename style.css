@@ -25,11 +25,12 @@ h1 {
 }
 
 p {
+    font-family: "Gloria Hallelujah", cursive;
     display: flex;
     justify-content: flex-start;
     padding-top: 20px;
     padding: 4%;
-    font-size: 18px;
+    font-size: 20px;
     color: black;
 }
 
@@ -72,11 +73,12 @@ p {
     }
 
     p {
+        font-family: "Gloria Hallelujah", cursive;
         display: flex;
         justify-content: flex-start;
         padding-top: 20px;
         padding: 8%;
-        font-size: 11px;
+        font-size: 13px;
         color: black;
     }
 }
