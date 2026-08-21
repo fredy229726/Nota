@@ -1,0 +1,84 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+table td {
+   font-weight: bold;
+   color: #FFFFFF;
+}
+
+
+th {
+    background-color: ;
+}
+
+.w {
+    background-color:deepskyblue;
+}
+
+.l {
+    background-color:#FF1C1C;
+}
+
+.t {
+    background-color: lightgrey;
+}
+
+.tabla-responsiva {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.tabla-responsiva table {
+    width: 100%;
+    min-width: 600px;
+    border-collapse: collapse;
+}
+
+@media (max-width: 720px) {
+    th, td {
+        padding: 4px 6px;
+        font-size: 8px;
+    }
+
+    .tabla-responsiva {
+        width: 100%;
+    }
+
+    .tabla-responsiva table {
+        table-layout: fixed;
+    }
+
+    .tabla-responsiva th, 
+    .tabla-responsiva td {
+        padding: 4px 6px;
+        font-size: 8px;
+        word-wrap: break-word;
+    }
+
+     table td {
+        font-weight: bold;
+        color: #FFFFFF;
+     }
+
+    .col-pos { width: 12%; }
+    .col-jugador { width: 34%; }
+    .col-played { width: 18%; }
+    .col-winrate { width: 18%; }
+    .col-pts { width: 18%; }
+
+    .tabla-posiciones th:nth-child(1) { width: 12%; }
+    .tabla-posiciones th:nth-child(2) { width: 30%; }
+    .tabla-posiciones th:nth-child(3) { width: 15%; }
+    .tabla-posiciones th:nth-child(4) { width: 23%; }
+    .tabla-posiciones th:nth-child(5) { width: 20%; }
+
+}
