@@ -1,8 +1,7 @@
-/* Fondo oscuro que cubre toda la pantalla */
 .modal {
-    display: none; /* Oculto inicialmente */
+    display: none;
     position: fixed;
-    z-index: 9999; /* Para que quede por encima de todo */
+    z-index: 9999; 
     left: 0;
     top: 0;
     width: 100%;
@@ -12,7 +11,6 @@
     align-items: center;
 }
 
-/* La imagen ampliada dentro del modal */
 .modal-contenido {
     max-width: 90%;
     max-height: 85vh;
@@ -21,7 +19,6 @@
     box-shadow: 0 4px 15px rgba(0,0,0,0.5);
 }
 
-/* Botón de cerrar (la "X") */
 .cerrar {
     position: absolute;
     top: 20px;
@@ -32,7 +29,6 @@
     cursor: pointer;
 }
 
-/* Cursor de manita en PC para las imágenes de la tabla */
 .imagen-zoom {
     cursor: pointer;
     transition: transform 0.2s;
